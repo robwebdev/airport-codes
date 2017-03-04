@@ -18,7 +18,7 @@ var columns = [
   "tz"
 ];
 
-var readStream = fs.createReadStream("airports.dat");
+var readStream = fs.createReadStream("airports-extended.dat");
 var writeStream = fs.createWriteStream("airports.json");
 
 var parse = csv({
